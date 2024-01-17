@@ -1,0 +1,12 @@
+Evolutionary Computing: A Solution to Partisan Gerrymandering
+
+ABSTRACT
+Gerrymandering in congressional districts is increasing in prevalence and is an enormous threat to a functioning
+democracy. In such a politically-charged environment, having a non-partisan solution provides tremendous value. This
+is where evolutionary computing comes in. By setting objectives with regards to competitiveness, spatial requirements,
+population, and demographic data, it should be possible to create fairer congressional districts.
+
+Existing papers have divided up the state by counties and assigned each county to a district. However, my approach
+will divide the state up into evenly sized squares which contain attributes based on county data. This way, counties
+can be split between congressional districts, hopefully opening the door to more effective solutions without the
+constraint of unity by county.

@@ -1,0 +1,15 @@
+WEEK 1
+[2/6/2023]
+This week my main objective was to load in the data for each county. While I was able to do this in a Pandas dataframe
+and begin to contemplate generating initial solutions, I hit a bit of roadblock when it comes to generating the exact
+number of districts necessary for a given state (I would usually have one or two fewer).
+
+Following our weekly Zoom meeting, I plan on implementing the advice from Prof. Rachlin: instead of having districts
+assigned at the county level, I'll try to represent the entire state in a NumPy array where each point is a certain
+coordinate rectangle. That way, counties can be split up. I intend on looking into Shapely for this task--it seems to
+an effective tool for checking points and polygons.
+
+WEEK 2
+[2/14/2023]
+I was able to successfully create a NumPy array that represents the geography of a state. I now need to figure out how
+to initialize a solution. I plan on making the initial solution valid (contiguous districts). 
